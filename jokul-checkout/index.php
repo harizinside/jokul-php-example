@@ -305,7 +305,7 @@
             type: "POST",
             dataType: "JSON",
             data: JSON.stringify(indexed_array),
-            url: "jokul-checkout/jokul-checkout.php",
+            url: "/jokul-php-example/jokul-checkout/jokul-checkout.php",
             contentType: "application/json",
             success: function (result) {
                 loadJokulCheckout(result.response.payment.url);
